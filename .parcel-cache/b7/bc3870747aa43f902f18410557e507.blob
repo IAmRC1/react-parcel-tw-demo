@@ -1,0 +1,235 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _jsxFileName = "/home/rishabhsingh/Documents/react-parcel-demo/src/components/App.jsx";
+  const App = () => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-900 px-4 py-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex justify-between items-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 8,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-2 text-white text-xl font-bold",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 9,
+          columnNumber: 13
+        }
+      }, "Demopay"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-block cursor-pointer md:hidden",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8 mb-2 h-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8 mb-2 h-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8 h-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 15
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "hidden md:block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-100 mr-6 font-bold",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 15
+        }
+      }, "How it Works"), " ", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100 mr-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 111
+        }
+      }, "Services"), " ", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 213
+        }
+      }, "Blog"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "hidden md:block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 21,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100 mr-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 13
+        }
+      }, "Login"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-2 px-4 text-gray-700 bg-white hover:bg-gray-100 rounded-lg",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 13
+        }
+      }, "Sign Up"), " "))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-900 md:overflow-hidden",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 26,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "px-4 py-20 md:py-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:max-w-6xl md:mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28,
+          columnNumber: 11
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        className: "fill-current text-white hidden md:block",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 1440 320",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 307,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("path", {
+        fillOpacity: "1",
+        d: "M0,224L1440,32L1440,320L0,320Z",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 308,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "text-center p-4 text-gray-600 pt-10",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311,
+          columnNumber: 7
+        }
+      }, " Created by ", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "border-b text-blue-500",
+        href: "https://twitter.com/mithicher",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311,
+          columnNumber: 70
+        }
+      }, "@mithicher"), ". Inspired by dribble shot", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "https://dribbble.com/shots/8807920-Quickpay-Hero-section/attachments/1015863",
+        target: "_blank",
+        className: "border-b text-blue-500",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 312,
+          columnNumber: 9
+        }
+      }, "https://dribbble.com/vadimdrut")))
+    );
+  };
+  _c = App;
+  exports.default = App;
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}

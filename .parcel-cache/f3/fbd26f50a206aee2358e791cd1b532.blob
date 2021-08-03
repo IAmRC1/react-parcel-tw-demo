@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="/index.HASH_REF_2eebc93606fc40ddd4e0be3b75f63f93.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React-Parcel-Demo</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script type="module" src="/index.HASH_REF_62d5dab885897b04655082d4fd532818.js"></script>
+</body>
+</html>

@@ -1,0 +1,1738 @@
+var helpers = require("../../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+helpers.prelude(module);
+try {
+  var _parcelHelpers = require("@parcel/transformer-js/lib/esmodule-helpers.js");
+  _parcelHelpers.defineInteropFlag(exports);
+  var _react = require("react");
+  var _reactDefault = _parcelHelpers.interopDefault(_react);
+  var _jsxFileName = "/home/rishabhsingh/Documents/react-parcel-demo/src/components/App.jsx";
+  const App = () => {
+    return (
+      /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 5,
+          columnNumber: 5
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-900 px-4 py-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 6,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:max-w-6xl md:mx-auto md:flex md:items-center md:justify-between",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 7,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex justify-between items-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-2 text-white text-xl font-bold",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 13
+        }
+      }, "Demopay"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-block cursor-pointer md:hidden",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8 mb-2",
+        style: "height: 2px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8 mb-2",
+        style: "height: 2px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 15
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-gray-400 w-8",
+        style: "height: 2px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 15
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 22,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "hidden md:block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-100 mr-6 font-bold",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 15
+        }
+      }, "How it Works"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100 mr-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29,
+          columnNumber: 15
+        }
+      }, "Services"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 15
+        }
+      }, "Blog"))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "hidden md:block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-1 md:py-4 text-gray-500 hover:text-gray-100 mr-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 13
+        }
+      }, "Login"), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "inline-block py-2 px-4 text-gray-700 bg-white hover:bg-gray-100 rounded-lg",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 13
+        }
+      }, "Sign Up")))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-900 md:overflow-hidden",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56,
+          columnNumber: 7
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "px-4 py-20 md:py-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:max-w-6xl md:mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 58,
+          columnNumber: 11
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:flex md:flex-wrap",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 59,
+          columnNumber: 13
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:w-1/2 text-center md:text-left md:pt-16",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 60,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h1", {
+        className: "font-bold text-white text-2xl md:text-5xl leading-tight mb-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 61,
+          columnNumber: 17
+        }
+      }, "Simple payment platform for any service"), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "text-indigo-200 md:text-xl md:pr-48",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 17
+        }
+      }, "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id vitae corrupti asperiores veritatis dolorum, commodi aperiam enim."), /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "#",
+        className: "mt-6 mb-12 md:mb-0 md:mt-10 inline-block py-3 px-8 text-white bg-red-500 hover:bg-red-600 rounded-lg shadow",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 73,
+          columnNumber: 17
+        }
+      }, "Get Started")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:w-1/2 relative",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 79,
+          columnNumber: 15
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "hidden md:block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 80,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "-ml-24 -mb-40 absolute left-0 bottom-0 w-40 bg-white rounded-lg shadow-lg px-6 py-8",
+        style: "transform: rotate(-8deg);",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 81,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-800 mx-auto rounded-lg px-2 pb-2 relative mb-8",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 85,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "mb-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 88,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "w-1 h-1 bg-indigo-100 rounded-full inline-block",
+        style: "margin-right: 1px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 89,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "w-1 h-1 bg-indigo-100 rounded-full inline-block",
+        style: "margin-right: 1px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 93,
+          columnNumber: 26
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "w-1 h-1 bg-indigo-100 rounded-full inline-block",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 97,
+          columnNumber: 26
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-1 w-12 bg-indigo-100 rounded mb-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 101,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-1 w-10 bg-indigo-100 rounded mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 102,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 104,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-6 h-3 rounded bg-indigo-100 mr-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 105,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-6 h-3 rounded bg-indigo-100",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 106,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "-mr-2 -mb-4 absolute bottom-0 right-0 h-16 w-10 rounded-lg bg-green-700 border-2 border-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 109,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-2 h-2 rounded-full bg-green-800 mx-auto absolute bottom-0 right-0 mr-2 -mb-2 z-10 border-2 border-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 112,
+          columnNumber: 23
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-gray-800 text-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 117,
+          columnNumber: 21
+        }
+      }, "Online ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 118,
+          columnNumber: 30
+        }
+      }), "Services")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "ml-24 mb-16 absolute left-0 bottom-0 w-40 bg-white rounded-lg shadow-lg px-6 py-8",
+        style: "transform: rotate(-8deg); z-index: 2;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 122,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-800 mx-auto rounded-lg relative mb-8 py-2 w-20 border-2 border-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 126,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-8 bg-green-700 w-8 rounded absolute left-0 top-0 -mt-3 ml-4",
+        style: "transform: rotate(-45deg); z-index: -1;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 129,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-8 bg-green-800 w-8 rounded absolute left-0 top-0 -mt-3 ml-8",
+        style: "transform: rotate(-12deg); z-index: -2;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 133,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex items-center justify-center h-6 bg-indigo-800 w-6 rounded-l-lg ml-auto border-4 border-white -mr-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 138,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-2 rounded-full bg-indigo-800 border-2 border-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-8 h-8 bg-green-700 border-4 border-white rounded-full -ml-3 -mb-5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146,
+          columnNumber: 23
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-gray-800 text-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151,
+          columnNumber: 21
+        }
+      }, "Banking Services")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "ml-32 absolute left-0 bottom-0 w-48 bg-white rounded-lg shadow-lg px-10 py-8",
+        style: "transform: rotate(-8deg); z-index: 2; margin-bottom: -220px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 156,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-800 mx-auto rounded-lg pt-4 mb-16 relative",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 160,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-4 bg-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 163,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-right my-2 pb-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-flex w-3 h-3 rounded-full bg-white -mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 166,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-flex w-3 h-3 rounded-full bg-indigo-800 border-2 border-white mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 169,
+          columnNumber: 25
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "-ml-4 -mb-6 absolute left-0 bottom-0 w-16 bg-green-700 mx-auto rounded-lg pb-2 pt-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 174,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 bg-white mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177,
+          columnNumber: 25
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 bg-white w-6 ml-auto rounded mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178,
+          columnNumber: 25
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-gray-800 text-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 182,
+          columnNumber: 21
+        }
+      }, "Payment for ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 183,
+          columnNumber: 35
+        }
+      }), "Internet")), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "mt-10 w-full absolute right-0 top-0 flex rounded-lg bg-white overflow-hidden shadow-lg",
+        style: "transform: rotate(-8deg); margin-right: -250px; z-index: 1;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 187,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-32 bg-gray-200",
+        style: "height: 560px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 191,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex-1 p-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 192,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        className: "text-lg text-gray-700 font-bold mb-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 193,
+          columnNumber: 23
+        }
+      }, "Popular Payments"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex mb-5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 196,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-gray-100 py-2 px-4 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 197,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-gray-300",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 198,
+          columnNumber: 27
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-gray-100 py-2 px-4 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 200,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-gray-300",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 201,
+          columnNumber: 27
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-gray-100 py-2 px-4 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 203,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-gray-300",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 204,
+          columnNumber: 27
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-gray-100 py-2 px-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 206,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-gray-300",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 207,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex flex-wrap -mx-4 mb-5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 211,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 212,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-40 rounded-lg bg-white shadow-lg p-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 213,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 h-16 rounded-full bg-gray-200 mb-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 214,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-2 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 217,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 220,
+          columnNumber: 29
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 223,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-40 rounded-lg bg-white shadow-lg p-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 h-16 rounded-full bg-gray-200 mb-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-2 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 228,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 231,
+          columnNumber: 29
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 234,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-40 rounded-lg bg-white shadow-lg p-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 235,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 h-16 rounded-full bg-gray-200 mb-6",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 236,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-2 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 239,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 242,
+          columnNumber: 29
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        className: "text-lg text-gray-700 font-bold mb-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 247,
+          columnNumber: 23
+        }
+      }, "Popular Payments"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-full flex flex-wrap justify-between items-center border-b-2 border-gray-100 py-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 251,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 254,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 255,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-8 w-8 rounded bg-gray-200 mr-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 256,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 257,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 258,
+          columnNumber: 31
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 261,
+          columnNumber: 31
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 267,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-green-100 py-2 px-4 mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 268,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-green-200",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 271,
+          columnNumber: 29
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 274,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 275,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex flex-wrap justify-between items-center border-b-2 border-gray-100 py-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 281,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 284,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 285,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-8 w-8 rounded bg-gray-200 mr-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 286,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 287,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 288,
+          columnNumber: 31
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 291,
+          columnNumber: 31
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 297,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-orange-100 py-2 px-4 mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 298,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-orange-200",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 301,
+          columnNumber: 29
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 304,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-100 rounded-full mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 305,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex flex-wrap justify-between items-center border-b-2 border-gray-100 py-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 311,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 314,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 315,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-8 w-8 rounded bg-gray-200 mr-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 316,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 317,
+          columnNumber: 29
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 318,
+          columnNumber: 31
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 321,
+          columnNumber: 31
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 327,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-blue-100 py-2 px-4 mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 328,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-blue-200",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 331,
+          columnNumber: 29
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 334,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-8 bg-gray-100 rounded-full mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 335,
+          columnNumber: 27
+        }
+      }))))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-full absolute left-0 bottom-0 ml-1",
+        style: "transform: rotate(-8deg); z-index: 1; margin-bottom: -360px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 343,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "grid--gray h-48 w-48",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 347,
+          columnNumber: 21
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "md:hidden w-full absolute right-0 top-0 flex rounded-lg bg-white overflow-hidden shadow",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 351,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-4 bg-gray-200 absolute top-0 left-0 right-0 rounded-t-lg flex items-center",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 354,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "h-2 w-2 rounded-full bg-red-500 inline-block mr-1 ml-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 357,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "h-2 w-2 rounded-full bg-orange-400 inline-block mr-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 360,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("span", {
+        className: "h-2 w-2 rounded-full bg-green-500 inline-block mr-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 363,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-32 bg-gray-100 px-2 py-8",
+        style: "height: 340px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 367,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-300 rounded-full mb-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 368,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex items-center mb-4",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 369,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-5 w-5 rounded-full bg-gray-300 mr-3 flex-shrink-0",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 370,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 373,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-300 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 374,
+          columnNumber: 25
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 378,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 379,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-20 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 380,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-6 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 381,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 382,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 383,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-20 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 384,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-6 bg-gray-200 rounded-full mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 385,
+          columnNumber: 21
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex-1 px-4 py-8",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 387,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        className: "text-xs text-gray-700 font-bold mb-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 388,
+          columnNumber: 21
+        }
+      }, "Popular Payments"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex mb-5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 391,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-2 w-12 rounded-full bg-gray-100 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 392,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-2 w-12 rounded-full bg-gray-100 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 393,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-2 w-12 rounded-full bg-gray-100 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 394,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-2 w-12 rounded-full bg-gray-100 mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 395,
+          columnNumber: 23
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex flex-wrap -mx-2 mb-5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 398,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 399,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-3 rounded-lg bg-white shadow",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 400,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-6 h-6 rounded-full bg-gray-200 mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 401,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 404,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-6 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 407,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 410,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-3 rounded-lg bg-white shadow",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 411,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-6 h-6 rounded-full bg-gray-200 mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 412,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 415,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-6 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 418,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3 px-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 421,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-3 rounded-lg bg-white shadow",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 422,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-6 h-6 rounded-full bg-gray-200 mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 423,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 426,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-6 bg-gray-200 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 429,
+          columnNumber: 27
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("h2", {
+        className: "text-xs text-gray-700 font-bold mb-1",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 434,
+          columnNumber: 21
+        }
+      }, "Popular Payments"), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-full flex flex-wrap justify-between items-center border-b-2 border-gray-100 py-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 438,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 441,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 442,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-5 w-5 rounded-full bg-gray-200 mr-3 flex-shrink-0",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 443,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 446,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 447,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 450,
+          columnNumber: 29
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 454,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-green-100 py-2 px-4 mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 455,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-green-200",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 458,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 461,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 462,
+          columnNumber: 25
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex flex-wrap justify-between items-center py-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 468,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 469,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "flex",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 470,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-5 w-5 rounded-full bg-gray-200 mr-3 flex-shrink-0",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 471,
+          columnNumber: 27
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 474,
+          columnNumber: 27
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-200 mb-1 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 475,
+          columnNumber: 29
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-10 bg-gray-100 rounded-full",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 478,
+          columnNumber: 29
+        }
+      })))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 482,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-16 rounded-full bg-orange-100 py-2 px-4 mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 483,
+          columnNumber: 25
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "p-1 rounded-full bg-orange-200",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 486,
+          columnNumber: 27
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "w-1/3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 489,
+          columnNumber: 23
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 w-16 bg-gray-100 rounded-full mx-auto",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 490,
+          columnNumber: 25
+        }
+      }))))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "mr-3 md:hidden absolute right-0 bottom-0 w-40 bg-white rounded-lg shadow-lg px-10 py-6",
+        style: "z-index: 2; margin-bottom: -380px;",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 498,
+          columnNumber: 17
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "bg-indigo-800 mx-auto rounded-lg w-20 pt-3 mb-12 relative",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 502,
+          columnNumber: 19
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-3 bg-white",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 505,
+          columnNumber: 21
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-right my-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 507,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-flex w-3 h-3 rounded-full bg-white -mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 508,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "inline-flex w-3 h-3 rounded-full bg-indigo-800 border-2 border-white mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 511,
+          columnNumber: 23
+        }
+      })), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "-ml-4 -mb-6 absolute left-0 bottom-0 w-16 bg-green-700 mx-auto rounded-lg pb-2 pt-3",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 516,
+          columnNumber: 21
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 bg-white mb-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 519,
+          columnNumber: 23
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "h-2 bg-white w-6 ml-auto rounded mr-2",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 520,
+          columnNumber: 23
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("div", {
+        className: "text-gray-800 text-center text-sm",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 524,
+          columnNumber: 19
+        }
+      }, "Payment for ", /*#__PURE__*/_reactDefault.default.createElement("br", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 525,
+          columnNumber: 33
+        }
+      }), "Internet")))))), /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        className: "fill-current text-white hidden md:block",
+        xmlns: "http://www.w3.org/2000/svg",
+        viewBox: "0 0 1440 320",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 532,
+          columnNumber: 9
+        }
+      }, /*#__PURE__*/_reactDefault.default.createElement("path", {
+        "fill-opacity": "1",
+        d: "M0,224L1440,32L1440,320L0,320Z",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 537,
+          columnNumber: 11
+        }
+      }))), /*#__PURE__*/_reactDefault.default.createElement("p", {
+        className: "text-center p-4 text-gray-600 pt-10",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 541,
+          columnNumber: 7
+        }
+      }, "Created by", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        className: "border-b text-blue-500",
+        href: "https://twitter.com/mithicher",
+        target: "_blank",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 543,
+          columnNumber: 9
+        }
+      }, "@mithicher"), ". Inspired by dribble shot", /*#__PURE__*/_reactDefault.default.createElement("a", {
+        href: "https://dribbble.com/shots/8807920-Quickpay-Hero-section/attachments/1015863",
+        target: "_blank",
+        className: "border-b text-blue-500",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 549,
+          columnNumber: 9
+        }
+      }, "https://dribbble.com/vadimdrut")))
+    );
+  };
+  _c = App;
+  exports.default = App;
+  var _c;
+  $RefreshReg$(_c, "App");
+  helpers.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
